@@ -1,0 +1,21 @@
+{
+  "proxy": {
+    "label": "我的专线",
+    "node": "填入你在Clash中的唯一固定节点名称",
+    "group": "GLOBAL",
+    "safe_ip": "填入该节点的固定出口IP（或运行 fleet-init --safe-ip auto 自动探测）",
+    "port": 7897,
+    "mihomo_sock": "/var/run/clash-verge-service/users/501/verge-mihomo.sock",
+    "warn_conns": 10,
+    "error_conns": 16,
+    "warn_delay_ms": 1100,
+    "error_delay_ms": 2600,
+    "auto_clean_stale_conns": 8,
+    "stale_conn_seconds": 180,
+    "kill_on_ip_mismatch": true
+  },
+  "workspace": {
+    "default_cwd": "~/Projects",
+    "ssot_dir": "~/personal-skill-system"
+  }
+}
